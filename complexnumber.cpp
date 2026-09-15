@@ -5,6 +5,14 @@ class Complex{
     public:
     float real;
     float imag;
+    Complex(){
+        real = 0.0;
+        imag = 0.0;
+    }
+    Complex(float r, float i){
+        real = r;
+        imag = i;
+    }
     Complex add(Complex c){
         Complex result;
         result.real = real + c.real;

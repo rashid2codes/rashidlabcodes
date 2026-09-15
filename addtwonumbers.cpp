@@ -4,7 +4,7 @@ using namespace std;
 class Number{
     public:
     int n;
-    public:
+
  
 };
     Number addNumber(Number a ,Number b)
